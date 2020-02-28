@@ -1,2 +1,15 @@
-Hello World
-Duy Nguyen
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML links</title>
+    <h1>HTML:HyperText Markup Language</h1>
+</head>
+<body>
+   <p1>Tim Berners-Lee invented the first browser at CERN, to enable researchers to share their research with eachother. </p1>
+   <a target="_blank" href="http://home.web.cern.ch/topics/birth-web"><br>Read more about the history of HTML
+       <p><img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300">
+       <br/>Image courtesy CERN
+       </p>
+   </a>
+</body>
