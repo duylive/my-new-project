@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form hiển thị hàng hóa</title>
+</head>
+<body>
+<h1>Thông tin hàng hóa</h1>
+<form action="#"></form>
+<fieldset>
+    Tên hàng hóa: <input type="text" name="fullname"><br>
+            Loại hàng hóa: <select>
+            <option value="DV">Dễ vỡ</option>
+            <option value="ĐH">Độc hại</option>
+            <option value="NĐ">Tránh nhiệt độ</option>
+            <option value="TA">Tránh ẩm</option>
+            <option value="PX">Phóng xạ</option>
+        </select><br>
+     Thời gian giao hàng: <input type="checkbox" name="hobby[]" value="1"> Ngay lập tức
+        <input type="checkbox"name="time[]" value="2"> Sau 2-3 ngày
+        <input type="checkbox"name="time[]" value="3"> Sau 7-10 ngày
+        <input type="checkbox"name="time[]" value="4"> Không xác định <br>
+     Địa chỉ giao hàng: <select>
+    <option value="HN">Hà Nội</option>
+    <option value="HP">Hải Phòng</option>
+    <option value="ĐN">Đà Nẵng</option>
+    <option value="SG">TP.Hồ Chí Minh</option>
+    </select>
+    Khác: <input type="text" name="orther city">
+    <br>
+    </fieldset>
+<br>
+<fieldset>
+    Tên đăng nhập: <input type="text" name="username"><br>
+    Mật khẩu: <input type="password" name="password"
+</fieldset>
+<br>
+<fieldset>
+    Mô tả thêm về hàng hóa: <textarea name="description" id="" cols="30" rows="20"></textarea>
+</fieldset>
+</body>
+</html>
