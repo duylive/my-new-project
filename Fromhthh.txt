@@ -8,25 +8,25 @@
 <h1>Thông tin hàng hóa</h1>
 <form action="#"></form>
 <fieldset>
-    <b>Tên hàng hóa:</b> <input type="text" name="fullname"><br>
+    <legend><b>Tên hàng hóa:</b> <input type="text" name="fullname"><br><br></legend>
     <b>Loại hàng hóa:</b> <select>
             <option value="DV">Dễ vỡ</option>
             <option value="ĐH">Độc hại</option>
             <option value="NĐ">Tránh nhiệt độ</option>
             <option value="TA">Tránh ẩm</option>
             <option value="PX">Phóng xạ</option>
-        </select><br>
+        </select><br><br>
     <b>Xuất xứ hàng hóa:</b> <select>
     <option value="EU">Châu Âu</option>
     <option value="US">Mỹ</option>
     <option value="AS">Châu Á</option>
-    </select><br>
+    </select><br><br>
     <b>Tình trạng:</b> <input type="radio" name="status"> Mới
-    <input type="radio" name="status"> Đã qua sử dụng <br>
+    <input type="radio" name="status"> Đã qua sử dụng <br><br>
     <b>Thời gian giao hàng:</b> <input type="checkbox" name="hobby[]" value="1"> Ngay lập tức
         <input type="checkbox"name="time[]" value="2"> Sau 2-3 ngày
         <input type="checkbox"name="time[]" value="3"> Sau 7-10 ngày
-        <input type="checkbox"name="time[]" value="4"> Không xác định <br>
+        <input type="checkbox"name="time[]" value="4"> Không xác định <br><br>
     <b>Địa chỉ giao hàng:</b> <select>
     <option value="HN">Hà Nội</option>
     <option value="HP">Hải Phòng</option>
@@ -34,9 +34,14 @@
     <option value="SG">TP.Hồ Chí Minh</option>
     </select>
     <b>Khác:</b> <input type="text" name="orther city">
-    <br>
+    <br><br>
     <b>Mô tả thêm về hàng hóa:</b> <textarea name="description" id="" cols="30" rows="10"></textarea>
 </fieldset>
+<br>
+<filedset>
+    <b>Tên đăng nhập:</b> <input type="text" name="username"><br><br>
+    <b>Mật khẩu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> <input type="password" name="password">
+</filedset>
 <br><br>
 <div style="text-align: center">
     <input type="reset" name="reset" value="Reset" style="cursor: pointer"/>
