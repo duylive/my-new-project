@@ -35,10 +35,7 @@
     </select>
     <b>Khác:</b> <input type="text" name="orther city">
     <br>
-
-    <b>Tên đăng nhập:</b> <input type="text" name="username"><br>
-    <b>Mật khẩu:</b> <input type="password" name="password"><br>
-    <b>Mô tả thêm:</b> <textarea name="description" id="" cols="30" rows="10"></textarea>
+    <b>Mô tả thêm về hàng hóa:</b> <textarea name="description" id="" cols="30" rows="10"></textarea>
 </fieldset>
 <br><br>
 <div style="text-align: center">
