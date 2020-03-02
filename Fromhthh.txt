@@ -8,37 +8,37 @@
 <h1>Thông tin hàng hóa</h1>
 <form action="#"></form>
 <fieldset>
-    Tên hàng hóa: <input type="text" name="fullname"><br>
-            Loại hàng hóa: <select>
+    <b>Tên hàng hóa:</b> <input type="text" name="fullname"><br>
+    <b>Loại hàng hóa:</b> <select>
             <option value="DV">Dễ vỡ</option>
             <option value="ĐH">Độc hại</option>
             <option value="NĐ">Tránh nhiệt độ</option>
             <option value="TA">Tránh ẩm</option>
             <option value="PX">Phóng xạ</option>
         </select><br>
-    Xuất xứ hàng hóa: <select>
+    <b>Xuất xứ hàng hóa:</b> <select>
     <option value="EU">Châu Âu</option>
     <option value="US">Mỹ</option>
     <option value="AS">Châu Á</option>
     </select><br>
-    Tình trạng: <input type="radio" name="status"> Mới
+    <b>Tình trạng:</b> <input type="radio" name="status"> Mới
     <input type="radio" name="status"> Đã qua sử dụng <br>
-    Thời gian giao hàng: <input type="checkbox" name="hobby[]" value="1"> Ngay lập tức
+    <b>Thời gian giao hàng:</b> <input type="checkbox" name="hobby[]" value="1"> Ngay lập tức
         <input type="checkbox"name="time[]" value="2"> Sau 2-3 ngày
         <input type="checkbox"name="time[]" value="3"> Sau 7-10 ngày
         <input type="checkbox"name="time[]" value="4"> Không xác định <br>
-    Địa chỉ giao hàng: <select>
+    <b>Địa chỉ giao hàng:</b> <select>
     <option value="HN">Hà Nội</option>
     <option value="HP">Hải Phòng</option>
     <option value="ĐN">Đà Nẵng</option>
     <option value="SG">TP.Hồ Chí Minh</option>
     </select>
-    Khác: <input type="text" name="orther city">
+    <b>Khác:</b> <input type="text" name="orther city">
     <br>
 
-    Tên đăng nhập: <input type="text" name="username"><br>
-    Mật khẩu: <input type="password" name="password"><br>
-    Mô tả thêm: <textarea name="description" id="" cols="30" rows="10"></textarea>
+    <b>Tên đăng nhập:</b> <input type="text" name="username"><br>
+    <b>Mật khẩu:</b> <input type="password" name="password"><br>
+    <b>Mô tả thêm:</b> <textarea name="description" id="" cols="30" rows="10"></textarea>
 </fieldset>
 <br><br>
 <div style="text-align: center">
