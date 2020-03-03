@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích của bạn</title>
+    <style>
+        .bang {
+            background-color: greenyellow;
+            border 1px white;
+        }
+    </style>
+</head>
+<body>
+<div class="bang"></div>
+<h2 align="center" style="background-color: orangered;color : white"><span>SỞ THÍCH CỦA BẠN</span></h2>
+<table align="center"
+    <tr>
+    <td align="right">Họ và tên</td>
+    <td><input type="text" name="your name" size="30"></td>
+    </tr>
+    <tr>
+       <td align="right">Email</td>
+       <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+        <td>Sở thích</td>
+        <td><label><input type="checkbox" name="hobby" value="thethao">Thể thao</label>
+        <label><input type="checkbox" name="hobby" value="amnhac">Âm nhạc</label>
+        <label><input type="checkbox" name="hobby" value="docsach">Đọc sách</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label><input type="checkbox" name="hobby" value="luotweb">Lướt web</label>
+        <label><input type="checkbox" name="hobby" value="Choigame">Chơi game</label>
+        <label><input type="checkbox" name="hobby" value="Dienanh">Điện ảnh</label><br>
+        <label><input type="checkbox" name="hobby" value="Dulich">Du lịch</label></td>
+    </tr>
+</table><br>
+<table align="center"
+    <tr>
+        <td><button name="submitform" type="submit">Gửi thông tin</button>
+            <button name="resetform" type="reset">Nhập lại</button></td>
+    </tr>
+</table>
+
+</body>
+</html>
