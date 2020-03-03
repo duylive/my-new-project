@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC</title>
+    <style>
+        #myForm{
+            display: none;
+        }
+
+    </style>
+    <script>
+        function showForm(){
+            document.getElementById("myForm").style.display = "block";
+
+        }
+        function closeForm(){
+            document.getElementById("myForm").style.display = "none";
+
+        }
+    </script>
+</head>
+<body>
+<h3>Thông tin sinh viên</h3>
+<form action="#" id="myForm">
+<fieldset>
+    Họ tên:<input type="text" name="fullname"><br>
+    Ngày sinh:<input type ="date" name="DOB"><br>
+    Giới tính:<input type ="radio" name="sex"> Nam
+              <input type ="radio" name="sex"> Nữ <br>
+    Quê quán: <select>
+    <option value="HN">Hà Nội</option>
+    <option value="HP">Hải Phòng</option>
+    <option value="ND">Nam Định</option>
+    <option value="BN">Bắc Ninh</option>
+</select><br>
+    Sở thích: <input type="checkbox" name="hobby[]" value="1"> Thể thao
+    <input type="checkbox"name="hobby[]" value="2"> Du lịch
+    <input type="checkbox"name="hobby[]" value="3"> Phim ảnh
+</fieldset>
+<fieldset>
+    Tên đăng nhập: <input type="text" name="username"><br>
+    Mật khẩu: <input type="password" name="password">
+</fieldset>
+<fieldset>
+    Mô tả thêm: <textarea name="description" id="" cols="30" rows="10"></textarea>
+</fieldset></form>
+<br><br>
+<h3>DANH SÁCH SINH VIÊN</h3>
+<button onclick="showForm()">Thêm sinh viên</button><br>
+<table border="1">
+    <tr>
+        <th>STT</th>
+        <th>Mã SV</th>
+        <th>Họ tên</th>
+        <th>Ngày sinh</th>
+        <th>Quê quán</th>
+        <th>Tên đăng nhập</th>
+        <th>Thao tác</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ABC123</td>
+        <td>Nguyen Van A</td>
+        <td>01/01/2000</td>
+        <td>Ha Noi</td>
+        <td>AnNV123</td>
+        <td>Sửa | Xoá</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ABC135</td>
+        <td>Tran Thi B</td>
+        <td>01/11/2001</td>
+        <td>Nam Dinh</td>
+        <td>BinhTT123</td>
+        <td>Sửa | Xoá</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
