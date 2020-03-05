@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>caro</title>
+</head>
+<body>
+<table align="center" bgcolor="#ff8c00" style="width: 800px;height:800px" BORDER="0">
+    <tr>
+        <th></th>
+        <th valign="bottom">1</th>
+        <th valign="bottom">2</th>
+        <th valign="bottom">3</th>
+        <th valign="bottom">4</th>
+        <th valign="bottom">5</th>
+        <th valign="bottom">6</th>
+        <th valign="bottom">7</th>
+        <th valign="bottom">8</th>
+        <th rowspan="9" width="80" bgcolor="#ff8c00"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px; padding-right: 20px">
+        <th align="right">A</th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">B</th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">C</th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">D</th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">E</th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">F</th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">G</th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+    </tr>
+    <tr style="width: 80px ;height: 80px">
+        <th align="right">H</th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+        <th bgcolor="black"></th>
+        <th bgcolor="#f0f8ff"></th>
+    </tr>
+    <tr>
+        <th colspan="9" bgcolor="#ff8c00" height="50"></th>
+    </tr>
+</table>
+</body>
